@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studing positions</title>
+    <style>
+        
+        .boxForAll {
+            border: 2px solid blue;
+            height: 95vh;
+            padding: 1%;
+            overflow: scroll;
+        }
+        p {
+            text-align: justify;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .box{
+            border: 5px solid;
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+        }
+        .one{
+            float: left;
+            position: static;
+            left: 20px;
+        }
+        .two{
+            float: right;
+            height: 30vh;
+            width: 45vh;
+            overflow: scroll;
+            padding: 13px;
+            box-sizing: border-box;
+            margin-left: 15px;
+        }
+        .p1{
+            /*clear: both;*/
+        }
+        .bigbox{
+            border: 1px solid;
+            width: 45%;
+            height: 30%;
+            margin: 2%;
+            display: inline-block;
+            
+        }
+        .right{
+            background-color: aqua;
+        }
+        .left{
+            position: static;
+        }
+        .p2 {
+            text-align: justify;
+            margin: 1%;
+        }
+        .firstP {
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TRABALHO LIVRE COM CAIXAS </h1>
+    <h2>(position, display, float, overflow...)</h2>
+    <div class="boxForAll">
+        <div class="bigbox left">
+            <div class="box one">
+                <span>caixa 1</span>
+                <div><span>caixa 1.1</span></div>
+            </div>
+        </div>
+        <div class="bigbox right"></div>
+        <br/> <br/><hr style="display: none;"/><br/> <br/>
+        
+        
+        <div class="box two">
+            <p>caixa 2 </p>
+            <p class="p2">ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        </div>
+        
+        <p class="p1 firstP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo libero, cursus eget porttitor eu, lobortis at justo. Vestibulum vitae viverra tortor. Maecenas ipsum dolor, consectetur viverra ligula sit amet.</p>
+    </div>
+
+
+
+    </body>
+</html>
